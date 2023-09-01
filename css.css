@@ -1,0 +1,63 @@
+/* By Jenil Soni
+    27 Augest, 2023*/
+
+#chatbox {
+    padding: 2%;
+}
+.boxes{
+
+    border: rgba(70, 69, 69, 0.582) ridge 1px;
+    font-family:   'Trebuchet MS', sans-serif;
+    font-size: medium;
+    border-style: ridge;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+#heading{
+    color: rgb(218, 212, 212);
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    background-color: #3b4866;
+    border: rgba(70, 69, 69, 0.582) ridge 1px;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+#msgBox {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#typeBox {
+    padding: 1%;
+    width: 98%;
+}
+#sendBtn{
+    padding: 1%;
+}
+#msgList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.botMsg{
+    border:rgba(70, 69, 69, 0.582) ridge 1px;
+    padding: 2%;
+    border-radius: 10px;
+    margin-right: 35%;
+    margin-bottom: 3%;
+    background-color: rgb(144, 238, 144);
+}
+
+.userMsg{
+    border: rgba(70, 69, 69, 0.582) ridge 1px;
+    padding: 2%;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-bottom: 3%;
+    background-color: rgb(138, 174, 241);
+}
